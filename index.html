@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N.A Flowers | 客製花藝設計</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", sans-serif;
+      line-height: 1.6;
+      background-color: #fffaf7;
+      color: #333;
+    }
+    header {
+      background: url('./images/bg.png') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      flex-direction: column;
+    }
+    header h1 {
+      font-size: 3em;
+      background: rgba(0,0,0,0.4);
+      padding: 0.5em 1em;
+      border-radius: 12px;
+    }
+    .cta {
+      margin-top: 20px;
+      padding: 0.8em 2em;
+      background-color: #d8a7b1;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product {
+      width: 280px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product-info {
+      padding: 1em;
+    }
+    .product-info h3 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .product-info p {
+      font-size: 0.95em;
+      color: #666;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0.5em 1.2em;
+      background-color: #d8a7b1;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+    .footer {
+      background-color: #f5e9e0;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>N.A Flowers</h1>
+  <button class="cta" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'});">立即選購花束</button>
+</header>
+
+<section id="products">
+  <h2>精選花藝</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://i.imgur.com/9JkM5Fb.jpg" alt="乾燥花花束">
+      <div class="product-info">
+        <h3>乾燥花束 - 奶茶色</h3>
+        <p>典雅溫柔色系，送禮首選</p>
+        <a href="#" class="btn">NT$980 購買</a>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/wQzE9kR.jpg" alt="母親節花束">
+      <div class="product-info">
+        <h3>母親節限定花束</h3>
+        <p>獻給最親愛的她</p>
+        <a href="#" class="btn">NT$1280 預約</a>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/UfUmNJU.jpg" alt="日常小花束">
+      <div class="product-info">
+        <h3>日常小清新花束</h3>
+        <p>每一天都值得被溫柔對待</p>
+        <a href="#" class="btn">NT$580 選購</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="custom">
+  <h2>客製服務</h2>
+  <p style="text-align:center;">提供婚禮、活動、居家擺設等客製花藝設計，依您的喜好與需求創作獨一無二的花束。</p>
+  <p style="text-align:center; margin-top: 1em;">
+    <a class="btn" href="https://lin.ee/xxx" target="_blank">LINE 預約諮詢</a>
+  </p>
+</section>
+
+<section id="social">
+  <h2>追蹤我們</h2>
+  <p style="text-align:center;">Instagram 最新作品、顧客回饋與限時優惠不錯過：</p>
+  <p style="text-align:center;">
+    <a class="btn" href="https://instagram.com/_n.a_flowers" target="_blank">@_n.a_flowers</a>
+  </p>
+</section>
+
+<div class="footer">
+  © 2025 N.A Flowers. All rights reserved. | 台北花藝設計 | 設計 & 製作 by N.A 團隊
+</div>
+
+</body>
+</html>
